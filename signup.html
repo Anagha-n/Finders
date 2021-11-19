@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./nav.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="" alt="logo-img">
+        </div>
+
+        <div class="links">
+            <li><a href="./home.html">HOME</a></li>
+            <li><a href="./signup.html">SIGNUP</a></li>
+            <li><a href="./login.html">LOGIN</a></li>
+            <li><a href="./pothole.html">FINDINGS</a></li>
+        </div> 
+
+    </div>
+
+    </div>
+    <h1>Welcome to ... </h1>
+    <div class="flex">
+        <img src="./assets/signup.png" alt="signup-img" class="signup-img">  
+
+    <div class="form" id="signup-form">
+        <h3>Sign Up</h3>
+
+        <form action="./signup.php" method="POST">
+
+            <label for="email">Email</label> <br>
+
+            <input type="text" name="email" id="email"> <br>
+
+            <label for="password">Password</label><br>
+
+            <input type="password" name="password" id="password"> <br>
+
+            <p class="password-hint">Must consist of atleast 8 characters, a symobol, uppercase and lowercase letters</p> <br>
+
+            <label for="password">Confirm Password</label> <br>
+
+            <input type="text" name="confirm-password" id="password"> 
+
+            <button type="submit">Sign Up</button> <br>
+    </div>
+</form>
+</body>
+</html>

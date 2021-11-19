@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+/* color code
+yellow-rgb(255, 255, 0)
+teal-#008080 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #008080;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #00a3a3;
+  }
+
+::selection {
+    color: white;
+    background: #008080;
+  }
+
+body{
+    font-family: 'Gideon Roman', cursive;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+}
+
+.login-img,.signup-img{
+    z-index: 1;
+    width: 40%;
+}
+
+.form{
+    color: white;
+    text-align: center;
+    padding: 2%;
+    border-radius: 8px;
+    height: 40%;
+    width:40%;
+    z-index: 2;
+}
+
+#login-form{
+        background: url('https://images.unsplash.com/photo-1620121478247-ec786b9be2fa?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxvYnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80');
+        color: white;
+}
+
+#signup-form{
+    background-color: #008080;
+    color: black;
+}
+
+#login-form button{
+    background: yellow;
+}
+
+#signup-form button{
+    background-color: yellow;
+}
+
+.form h3{
+    margin: 7%;
+    font-size: 250%;
+}
+
+.form form label{
+    margin: 5%;
+    font-size: 19px;
+    line-height: 40px;
+}
+
+.form form input{
+    margin: 3%;
+    border: 1px solid rgba(0, 0, 0, 0.73);
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 80%;
+    height: 35px;
+}
+
+.password-hint{
+    color: pink;
+    font-size: 15px;
+    margin: 5px;
+}
+button{
+    width: 30%;
+    height: 40px;
+    margin-top: 10%;
+    border-radius: 5px;
+    text-align: center;
+    align-self: center;
+    cursor: pointer;
+}
+
+input {
+    font: small-caption;
+    font-size: 20px;
+  }
+   
+  h1{
+      margin: 1%;
+      text-align: center;
+  }
+
+  .check{
+      display: flex;
+
+  }
+
+.flex{
+    margin: 2%;
+    display: flex;
+    flex-wrap: wrap;
+} 
+
+.how, .wht{
+    background-color: yellow;
+    padding: 2%;
+    width: 40%;
+}
+
+hr{
+    width: 20%;
+}
+
+.box{
+    background-color: black;
+    border-radius: 6px;
+    width: 20%;
+    height: 5px;
+}
+
+section{
+    text-align: center;
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1494783367193-149034c05e8f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: 100%;
+    height: 100vh;
+}
+
+section h1{
+    opacity: 0.7;
+    background-color: #008080;
+    padding: 3%;
+}

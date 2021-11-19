@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Gideon+Roman&display=swap');
+
+/* color code
+yellow-rgb(255, 255, 0)
+teal-#008080 */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Gideon Roman', cursive;
+}
+
+.nav{
+  position: sticky;
+    padding: 1%;
+    box-shadow: 0px 15px 10px -18px #111;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly; 
+    margin: 1%;
+}
+
+.links{
+    width: 70%;
+    align-items: center;
+    justify-content: space-evenly;
+    display: flex;
+    list-style: none;
+}
+
+.links a{
+    font-weight: bold;
+    color: #2B425B;
+    padding: 15%;
+  text-decoration: none;
+}
+
+.links a:hover{
+  padding: 15%;
+background: linear-gradient(45deg, #008080 0%, #0eca8c 32%, #78f723 57%, #d0f723 74%, yellow 100%);
+background-size: 200% 100%;
+animation: rainbow 4s ease infinite;
+}
+
+@keyframes rainbow {
+  0%{background-position:0% 0%}
+  50%{background-position:100% 0%}
+  100%{background-position:0% 0%}
+}
